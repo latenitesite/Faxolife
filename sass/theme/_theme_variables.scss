@@ -1,0 +1,56 @@
+// cortextoo
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+:root {font-family: brandon-grotesque, sans-serif;}
+
+// Typography
+$headings-font-family: league-gothic, 'helvetica neue', helvetica, sans-serif;
+$headings-font-weight: 400;
+
+$font-family-sans-serif: brandon-grotesque, sans-serif;
+$font-family-base: brandon-grotesque, sans-serif;
+
+$line-height-base: 2;
+
+$display1-size: 8rem;
+$display1-weight: 700;
+$display-line-height: 8rem;
+
+$display2-size: 7rem;
+$display2-weight: 700;
+$display-line-height: 7rem;
+
+$display3-size: 5.4rem;
+$display3-weight: 700;
+$display-line-height: 5.4rem;
+
+$display4-size: 4.2rem;
+$display4-weight: 700;
+$display-line-height: 4.2rem;
+
+$headings-margin-bottom: 1rem;
+$headings-line-height: 1.4;
+
+// Rounded Buttons
+$enable-rounded: false;
+
+// Drop downs
+$dropdown-border-width: 0;
+
+// Colors
+$primary: #121212;
+$secondary: #6fffff;
+$success: #21A77A;
+$info: #F7F7F9;
+$warning: #EC971F;
+$danger: #843534;
+$dark: #000000;
+$light: #ffffff;
+
+$link-hover-color: #00f8ff;
+$link-color: #4A4A4A;
+
+$gray-500: #D2D2D2;
+$gray-600: rgba(151,151,151,1);
+$gray-700: #2b2b2b;
+$gray-800: #767676;
+$gray-900: #4A4A4A;
