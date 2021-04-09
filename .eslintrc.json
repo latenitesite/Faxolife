@@ -1,0 +1,34 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": [
+    "wordpress",
+    "eslint:recommended",
+    "plugin:jquery/slim",
+    "prettier"
+  ],
+  "env": {
+    "browser": false,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "wp": true,
+    "wpApiSettings": true,
+    "window": true,
+    "document": true,
+    "hljs": true,
+    "selectedFonts": true,
+    "WebFont": true,
+    "$": true
+  },
+  "plugins": ["jquery"],
+  "rules": {
+    "no-console": 0,
+    "jquery/no-hide": 0,
+    "jquery/no-show": 0
+  }
+}

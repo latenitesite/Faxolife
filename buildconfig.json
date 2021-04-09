@@ -1,0 +1,20 @@
+{
+  "browserSyncOptions": {
+    "proxy": "cea2.local/",
+    "notify": false
+  },
+  "browserSyncWatchFiles": [
+    "./assets/styles/*.min.css",
+    "./assets/scripts/*.min.js",
+    "./**/*.php"
+  ],
+  "paths": {
+    "client": "./client/client-assets",
+    "js": "./assets/scripts",
+    "img": "./assets/images",
+    "node": "./node_modules",
+    "dev": "./",
+    "dist": "./assets/dist",
+    "styles": "./assets/styles"
+  }
+}
